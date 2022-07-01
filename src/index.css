@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+* {
+  font-family: 'Manrope';
+  font-style: normal;
+}
+
+body {
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #162542;
+
+}
+
+.buttom-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.buttom {
+  background: #E8EFF2;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #162542;
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.buttom:hover {
+  background: #162542;
+  color: white;
+}
